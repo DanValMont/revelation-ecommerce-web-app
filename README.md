@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# REVELATION
 
-## Getting Started
+A professional, responsive and fully functional e-commerce website using Next.js framework.
 
-First, run the development server:
+## Features and Advantages
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Product list in home page and product details in details page
+* Product category in side bar
+* Search products and search page results
+* Add to cart product and create shopping cart screen
+* Sign up and sign in page to manage users
+* Checkout wizard to get shipping info, payment method and preview order
+* Manage user profile and show order history of users
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Advantages
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* Implements broad features like sales statistics and charts on admin dashboard
+* Manage users to list, grant and deny admin permissions for users and customers
+* Admin user can manage to create, update and delete products
+* Paginate products
+* Upload images of products
+* Admin user can list and delete orders
+* Also admin user can handle any order to be delivered or canceled
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technologies applied to this project
 
-## Learn More
+* **Next.js** a powerful full-stack React framework
+* **Material UI** to design a e-commerce website based on the best practices in UI and UX
+* **React Context** to manage the state of the application in a predictable way
+* **Next-Connect** to build an API in Next.js
+* **Mongoose.js** to save and retrieve data from **Mongo DB Atlas** (database)
+* **JSON Web Tokens (JWT)** to authenticate users
+* **Paypal** checkout API to make payments for the orders
+* Advanced **Mongo DB** functions like **aggregation** to calculate summary data for admin dashboard
+* **React Chart.js** to display professional charts
+* **Cloudinary** server to upload files (images)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Demo Website
